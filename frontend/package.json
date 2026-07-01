@@ -41,10 +41,9 @@
     "vite": "^8.0.14"
   },
   "pnpm": {
-    "onlyBuiltDependencies": [
-      "esbuild",
-      "@sentry/cli"
-    ],
+  "onlyAllowTrustedDependencies": [
+    "@sentry/cli"
+  ],
     "overrides": {
       "svelte-eslint-parser>eslint-scope": "^9.1.0"
     }
